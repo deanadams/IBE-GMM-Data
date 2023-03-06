@@ -1,0 +1,61 @@
+#NEXUS
+[R-package APE, Mon Mar  6 15:15:10 2023]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 24;
+	TAXLABELS
+		Iphiclides_feisthamelii
+		Parnassius_apollo
+		Zerynthia_cassandra
+		Carterocephalus_palaemon
+		Ochlodes_sylvanus
+		Carcharodus_alceae
+		Spialia_orbifer
+		Pyrgus_andromedae
+		Gonepteryx_rhamni
+		Colias_crocea
+		Colotis_evagore
+		Euchloe_tagis
+		Anthocharis_cardamines
+		Hamearis_lucina
+		Lycaena_phlaeas
+		Zizeeria_knysna
+		Plebejus_idas
+		Eumedonia_eumedon
+		Brenthis_daphne
+		Vanessa_atalanta
+		Aglais_urticae
+		Euphydryas_aurinia
+		Melitaea_deione
+		Danaus_plexippus
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Iphiclides_feisthamelii,
+		2	Parnassius_apollo,
+		3	Zerynthia_cassandra,
+		4	Carterocephalus_palaemon,
+		5	Ochlodes_sylvanus,
+		6	Carcharodus_alceae,
+		7	Spialia_orbifer,
+		8	Pyrgus_andromedae,
+		9	Gonepteryx_rhamni,
+		10	Colias_crocea,
+		11	Colotis_evagore,
+		12	Euchloe_tagis,
+		13	Anthocharis_cardamines,
+		14	Hamearis_lucina,
+		15	Lycaena_phlaeas,
+		16	Zizeeria_knysna,
+		17	Plebejus_idas,
+		18	Eumedonia_eumedon,
+		19	Brenthis_daphne,
+		20	Vanessa_atalanta,
+		21	Aglais_urticae,
+		22	Euphydryas_aurinia,
+		23	Melitaea_deione,
+		24	Danaus_plexippus
+	;
+	TREE * UNTITLED = [&R] ((1:59.089711,(2:44.353057,3:44.353057):14.736654):48.928371,(((4:43.80875,5:43.80875):8.207157,((6:19.69248,7:19.692481):24.168499,8:43.860978):8.154929):54.769345,(((9:32.135509,10:32.135509):32.780864,(11:54.129066,(12:18.35676,13:18.35676):35.772306):10.787306):36.436587,((14:87.881647,(15:54.624698,(16:33.30672,(17:10.513048,18:10.513047):22.793672):21.317979):33.256948):9.768818,((19:72.767685,((20:23.274975,21:23.274976):19.239843,(22:27.871349,23:27.871349):14.64347):30.252865):9.529796,24:82.29748):15.352984):3.702495):5.432292):1.23283);
+END;
